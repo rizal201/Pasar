@@ -13,6 +13,9 @@
      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../package/swiper-bundle.min.css">
 
+    <!-- link Other -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
 
     <link rel="icon" href="img/bukalapak-logo-icon.svg" type="image/icon type">
     <title>Pasar</title>
@@ -37,13 +40,13 @@
                 <input type="text" placeholder="Cari Sepatu Basket" class="search cari">
               </div>
               <div class="notfikasi">
-                    <svg width="2em" height="1.5em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="notif-color" width="2em" height="1.5em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
                         <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
                     </svg>
               </div>
               <div class="cart">
-                <svg width="2em" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="2em" class="cart-color" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
                 </svg>
               </div>
@@ -55,15 +58,74 @@
             <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
-        <div class="swiper-slide"><img class="" src="" alt=""></div>
+        <div class="swiper-slide"><img class="jordan jordan__blue" src="img/seller-center.jpg" alt="Promo"></div>
+        <div class="swiper-slide"><img class="jordan jordan__blue" src="img/Edukasi-Voucher-Toko-5_Seler-Center.jpg" alt="Promo"></div>
+        <div class="swiper-slide"><img class="jordan jordan__blue" src="img/Voucher-Toko-Value-Update-Announcement-Seller-Center-1024x439.jpg" alt="Promo"></div>
+        <div class="swiper-slide"><img class="jordan jordan__blue" src="img/Voucher-Toko2-1.jpg" alt="Promo"></div>
+        <div class="swiper-slide"><img class="jordan jordan__blue" src="img/Voucher-Toko-Value-Update-Announcement-Seller-Center-1024x439.jpg" alt="Promo"></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
+    </div>
+   <div id="content" class="content">
+     <h3 class="kategori">Kategori</h3>
+     <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="img/category-women.jpg" alt="" class="img-fluid">
+          <div class="label mt-2">Baju Wanita & Anak</div>
+        </div>
+          <div class="col-md-2">
+            <img src="img/category-men.jpg" alt="" class="img-fluid">
+            <div class="label mt-2"> Baju Pria</div>
+          </div>
+          <div class="col-md-2">
+            <img src="img/accesorris.jpg" alt="" class="img-fluid">
+            <div class="label mt-2">Aksesoris Pakaian</div>
+          </div>
+          <div class="col-md-2">
+            <img src="img/electronics.jpg" alt="" class="img-fluid">
+            <div class="label mt-2">Elektronik</div>
+          </div>
+          <div class="col-md-2">
+            <img src="img/toys.jpg" alt="" class="img-fluid">
+            <div class="label mt-2">Mainan Anak</div>
+          </div>
+          <div class="col-md-2">
+            <img src="img/jordan-red.jpg" alt="" class="img-fluid">
+            <div class="label mt-2">Sepatu</div>
+          </div>
+      </div>
+    </div>
+    <div id="card">
+      <h3 class="Content_kfo">Produk Kami</h3>
+      <div class="card">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/toko-cola.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/toko-cola.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/toko-cola.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/toko-cola.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      
     </div>
 </div>
 

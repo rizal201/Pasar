@@ -7,15 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="detail.css">
-
-    <title>Pasar | Detail Produk</title>
-    <style>
-        body{
-            background-color: #fafafa;
-        }
-    </style>
+    <link rel="stylesheet" href="../detailpembayaran/pmbyaran.css">
+    <title>Pasar | Detail Transaksi</title>
   </head>
   <body>
     <section id="navbar" class="searchbar">
@@ -45,51 +40,32 @@
         </header>
     </section>
     <div class="main">
-        <h3 class="Detail__produk">Detail Produk</h3>
+        <h3 class="Transaksi">Detail Transaksi</h3>
         <div class="container">
-            <div class="row">
-                <div class="col-md">
-                  <img src="img/paul-volkmer-updW-QUccFE-unsplash.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md">
-                  <h4>Nike Air Jordan Red Original</h4>
-                  <div class="hargabarang">
-                      <span class="jumlah">Harga Barang : Rp. 3.456.000</span>
-                  </div>
-                  <div class="Stok">
-                      <div class="Stok Stok__barang">
-                          <div class="Stok Stok__Barang--jumlah">Stok Barang : 50+</div>
-                      </div>
-                  </div>
-                  <div class="Namatoko">
-                      <div class="Toko">
-                          <div class="NamaToko__barang">Nama Toko : Voorods</div>
-                      </div>
-                  </div>
-                  <div class="Deskripsi">
-                      <div class="Deskripsi Dekripsi__title">
-                          <div class="Deskripsi Deskripsi__title--hals">Deskripsi</div>
+            <div class="row mt-4">
+                <div class="col-md-4 text-center border-right border-secondery">
+                    <div class="tab-content row d-flex justify-content-center align-items-center" id="myTabContent">
+                        <div class="tab-pane fade show active col-md-12" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <img class="img-fluid" src="../img/mikkel-bech-Rux50ySjahc-unsplash.jpg" />
                         </div>
-                        <div class="Deskripsi Deskripsi__title--uash">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo! Rem tempora porro, repellendus tempore distinctio alias sequi veniam laboriosam, illum nisi sapiente modi. Ratione est excepturi corrupti veritatis id?</div>
-                  </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                 <div class="col-md offset-3"></div>
-                    <div class="col-md">
-                      <a href="../Pasar/link/checkout.html">
-                        <button type="button" class="btn btn-secondary w-100"><span class="Beli beli__text">Beli</span></button>
-                      </a>
-                    </div>
-                    <div class="col-md">
-                        <a href="../Pasar/link/cart.html">
-                          <button type="button" class="btn btn-secondary w-100"><span class="Keranjang keranjang__text">+ Keranjang</span></button>
-                        </a>
-                    </div>
+                <div class="col-md-7">
+                    <h5>
+                        Pembelian Dari Toko Inagata Shop
+                    </h5>
+                    <h5>
+                        Samsung Note 8
+                    </h5>
+                    <p class="tanggaltransaksi">
+                       Tanggal Transaksi: <b><i>9 Agutus 2020</i></b> | Total: <b><i>Rp 2.450.000</i></b>
+                    </p>
+                    <button type="button" class="btn btn-secondary mt-5">Belum Diterima</button>
+                    <button type="button" class="btn btn-secondary mt-5">Sudah Diterima</button>
+                </div>
             </div>
         </div>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

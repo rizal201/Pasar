@@ -5,12 +5,17 @@
     left: 0px;
     right: 0px;
     z-index: 11;
-    background: rgb(22, 22, 22);
+    background: linear-gradient(90deg, #7FAAB0 0%, #819598 117.75%);
+    box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.1);
 }
 
 ::placeholder{
     color: rgb(22, 22, 22);
     text-decoration-style: none;
+}
+
+.logo{
+    padding: 30p, 0px;
 }
 
 .menuatas{
@@ -24,14 +29,14 @@
     margin: 0px auto;
 }
 
-.logo{
+.logo__kasdio{
     width: auto;
     height: 33px;
     margin-right: 20px;
 }
 
 .logostyle{
-    width: 33px;
+    width: 40px;
     height: 33px;
 }
 
@@ -101,10 +106,8 @@
 .main{
     position: relative;
     top: 60px;
-    max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
-    min-height: calc(100vh - 80vh);
     margin: 0px auto;
     padding: 0px 16px 80px
 }
@@ -114,15 +117,13 @@
 }
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .swiper-slide {
     text-align: center;
-    background-color: white;
+    background: linear-gradient(90deg, #7FAAB0 0%, #819598 117.75%);
     font-size: 18px;
 
     /* Center slide text vertically */
@@ -135,13 +136,57 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
+
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    position: relative;
+    color: white;
+    margin: 50px 0px;
+}
+
+.text__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 18px;
+    color:white;
+}
+
+.titile__produk{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.button{
+    background: #00CBB3;
+    width: 409.14px;
+    border-radius: 4px;
+}
+
+.img__banner{
+    width: 500px;
+    height: 400px;
+}
+
+.img__vector-free{
+    margin-left: 78px;
+}
 
 .jordan__blue{
     margin: 8px;
-    height: auto;
-    max-width: 100%;
-    border-radius: 5px
+    width: 500px;
+    height: 400px;
+    left: 606px;
+    background-image: url(img/Vector.png);
 }
 
 .kategori{
@@ -264,6 +309,9 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-size: 12px;
+    font-weight: 300;
+    color: #373737;
 }
 
 .harga__barang{
@@ -272,9 +320,20 @@
 }
 
 .jumlah{
-    line-height: 1.75em;
-    font-weight: bold;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 17.07px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #00CBB3;
+}
+
+.product_btm_text{
+    padding: 0.5em;
+}
+
+.p_rating{
+	color: #fec42d;
+	cursor: pointer;
 }
 
 .link__semua{

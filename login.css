@@ -1,0 +1,274 @@
+
+    
+    span{
+        font-family: 'Open Sans' , sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        overflow: hidden;
+    }
+    
+    .tampilan__login{
+        background-color: white;
+        position: relative;
+        top: 60px;
+        max-width: 480px;
+        width: 100%;
+        box-sizing: border-box;
+        min-height: calc(100vh - 60px);
+        margin: 0px auto;
+        padding: 10px 16px;
+    }
+
+    .menu__icon{
+        margin-right: 1em;
+        flex-shrink: 0;
+    }
+    
+    .warning{
+        max-width: 100%;
+        vertical-align: middle;
+    }
+    
+    .style__space{
+        font-size: 14px;
+        word-break: break-word;
+    }
+    
+    .masuk{
+        color: rgb(77, 77, 77);
+    }
+    
+    .tOped{
+        display: flex; 
+        vertical-align: middle; 
+        margin-left: 8em;
+        width: 220.74px;
+        height: 48px;
+    }
+
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        margin-left: 3px;
+    }
+    
+    .style__form{
+        margin-top: 2em;
+    }
+    
+    .style__fieldset{
+        margin: 0.75em 0px;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+        padding: 0px;
+    }
+    
+    .style__textfield{
+        position: relative;
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 3px;
+    }
+    
+    .style__textfieldinput{
+        height: 45px;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        padding: 9.5px 9.5px 9.5px 15px;
+        background: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(232, 233, 235);
+        border-image: initial;
+    }
+    
+    .style__textfieldpassword{
+        height: 45px;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        padding: 9.5px 9.5px 9.5px 15px;
+        background: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(232, 233, 235);
+        border-image: initial;
+        font-size: 1em;
+    }
+    
+    .style__paswordtoggle{
+        position: absolute;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        right: 5px;
+        top: 4px;
+        font-size: 16px;
+        color: rgb(153, 153, 153);
+        padding: 7.5px;
+    }
+    
+    .style__passwordtoggle-sc{
+        position: static;
+        top: 0px;
+        left: 0px;
+        visibility: hidden;
+        width: 1px;
+        height: 1px;
+        clip: rect(0px, 0px, 0px, 0px);
+        margin: -1px;
+        overflow: hidden;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+    }
+    
+    .style__buttonwrapper{
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        font-size: 16px;
+        background-color: rgb(0, 174, 239);
+        color: #ffff;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+        transition: all 0.35s ease 0s;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 13px 45px;
+    }
+    
+    .style__info-belumpunya{
+        font-family: 'Open Sans' , sans-serif;
+        color: rgb(77, 77, 77);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 3;
+        text-align: center;
+    }
+    
+    .login_link-daftar{
+        font-family: 'Open Sans' , sans-serif;
+        text-align: center;
+        color: rgb(0, 174, 239);
+        cursor: pointer;
+        transition: all 0.35s ease 0s;
+    }
+    
+    .style__line-sc{
+        margin: 0px -16px;
+        border-top: 7px solid rgb(247, 247, 247);
+    }
+    
+    .style__Content{
+        color: rgb(77, 77, 77);
+    }
+    
+    .Style__Titile-lm{
+        font-family: 'Monserrat' , sans-serif;
+        color:#373737;
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    
+    .Style__masuk{
+        font-family: 'Monserrat' , sans-serif;
+        color:#373737;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .style_buttonContainer{
+        margin: 15px 0px;
+    }
+    
+    .style__buttonwrapper-fc{
+        font-family: 'Open Sans' , sans-serif;
+        display: inline-block;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        font-size: 1em;
+        background-color: rgb(59, 89, 153);
+        color: rgb(255, 255, 255);
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+        transition: all 0.35s ease 0s;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 11px 37.5px;
+    }
+    
+    .facebook{
+        height: 12px;
+        width: 12px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    .style_buttoncontainer{
+        margin: 15px 0px;
+    }
+    
+    .style__button-goggle{
+        display: inline-block;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        box-shadow: rgb(188, 188, 188) 2px 1px 2px 0px;
+        font-size: 1em;
+        background-color: rgb(247, 247, 247);
+        color: rgb(74, 74, 74);
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+        transition: all 0.35s ease 0s;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 11px 37.5px;
+    }
+    
+    .goggle{
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    

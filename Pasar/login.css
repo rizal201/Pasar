@@ -171,47 +171,23 @@
     border-radius: 4px;
 }
 
-
-.kategori-content{
-    overflow-y:hidden ;
-    margin-top: 28px;
-    display: inline-flex;
+.jordan__blue{
+    margin: 8px;
+    width: 500px;
+    height: 400px;
+    left: 606px;
+    background-image: url(img/Vector.png);
 }
 
-.kategori-item{
-    position: relative;
-    border-radius: 8px;
-    padding: 0px;
-    height: 110px;
-    line-height: 1.14;
-    letter-spacing: normal;
+.content{
+    line-height: 80px;
 }
 
-.kategori-item--image{
-    display: flex;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-}
-
-.img-style{
-    height: 80px;
-    width: 98px;
-}
-
-.img-proof{
-    display: table;
-    max-width: 100%;
-}
-
-.kategori-item--teks{
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+.label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 .Content__produk{
@@ -227,7 +203,7 @@
     position: relative;
 }
 
-.Card__lid{
+.Card__slider{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -275,15 +251,15 @@
     border-radius: 4px 4px 0px 0px;
 }
 
-.card__judul{
+.card__detail{
     padding: 0.5em;
 }
 
-.card__detail--judul{
+.card__detail--namaproduk{
     min-height: 1em;
 }
 
-.card__judulbarang{
+.card__detailproduk{
     font-family: 'Montserrat' , sans-serif;
     font-weight: 600;
     font-size: 12px;
@@ -294,13 +270,6 @@
     word-break: break-word;
     margin: 0.25em 0em;
     overflow: hidden;
-}
-
-.textkecil{
- font-family: 'Montserrat', sans-serif;
- font-weight: 300;
- font-style: normal;
- font-size: 14px;
 }
 
 .card__namatoko{

@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"><div class="pd-wrap">
     <link rel="stylesheet" href="detail.css">
 
     <title>Pasar | Detail Produk</title>
@@ -19,75 +21,103 @@
   </head>
   <body>
     <section id="navbar" class="searchbar">
-        <header class="header">
-          <div class="menuatas">
-            <a id="logo" title="KitaBisa" class="logo" href="#">
-              <img src="https://s1.bukalapak.com/ast/sigil/bukalapak-logo-icon.svg" alt="Logo" class="logostyle"></a>
-              <div id="search" class="search">
-                  <svg  class="ex" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                  </svg>
-                <input type="text" placeholder="Cari Sepatu Basket" class="search cari">
-              </div>
-              <div class="notfikasi">
-                    <svg class="notif-color" width="2em" height="1.5em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
-                        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
-                    </svg>
-              </div>
-              <div class="cart">
-                <svg width="2em" class="cart-color" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                </svg>
-              </div>
+      <header class="header">
+        <div class="menuatas">
+          <div class="logo__kasdio">
+            <a id="logo" title="tokopedia" class="logo" href="#"><img src="img/tokopedia.png" alt=""></a>
           </div>
-        </header>
-    </section>
-    <div class="main">
-        <h3 class="Detail__produk">Detail Produk</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                  <img src="img/paul-volkmer-updW-QUccFE-unsplash.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md">
-                  <h4>Nike Air Jordan Red Original</h4>
-                  <div class="hargabarang">
-                      <span class="jumlah">Harga Barang : Rp. 3.456.000</span>
-                  </div>
-                  <div class="Stok">
-                      <div class="Stok Stok__barang">
-                          <div class="Stok Stok__Barang--jumlah">Stok Barang : 50+</div>
-                      </div>
-                  </div>
-                  <div class="Namatoko">
-                      <div class="Toko">
-                          <div class="NamaToko__barang">Nama Toko : Voorods</div>
-                      </div>
-                  </div>
-                  <div class="Deskripsi">
-                      <div class="Deskripsi Dekripsi__title">
-                          <div class="Deskripsi Deskripsi__title--hals">Deskripsi</div>
-                        </div>
-                        <div class="Deskripsi Deskripsi__title--uash">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo! Rem tempora porro, repellendus tempore distinctio alias sequi veniam laboriosam, illum nisi sapiente modi. Ratione est excepturi corrupti veritatis id?</div>
-                  </div>
-                </div>
+            <div id="search" class="search">
+              <input type="text" placeholder="Cari Sepatu Basket" class="search cari">
+              <svg  class="ex" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+              </svg>
             </div>
-            <div class="row">
-                 <div class="col-md offset-3"></div>
-                    <div class="col-md">
-                      <a href="./link/checkout.html">
-                        <button type="button" class="btn btn-secondary w-100"><span class="Beli beli__text">Beli</span></button>
-                      </a>
-                    </div>
-                    <div class="col-md">
-                        <a href="./link/cart.html">
-                          <button type="button" class="btn btn-secondary w-100"><span class="Keranjang keranjang__text">+ Keranjang</span></button>
-                        </a>
-                    </div>
+            <div class="notfikasi">
+                  <svg class="notif-color" width="2em" height="1.5em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+                      <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+            </div>
+            <div class="cart">
+              <svg width="2em" class="cart-color" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>
             </div>
         </div>
+      </header>
+    </section>
+    <div class="main"></div>
+    <div class="container">
+      <div class="card">
+        <div class="container-fliud">
+          <div class="wrapper row">
+            <div class="preview col-md-6">
+              
+              <div class="preview-pic tab-content">
+                <div class="tab-pane active" id="pic-1"><img src="img/kliipan.png" /></div>
+                <div class="tab-pane" id="pic-2"><img src="img/kliipan1.png" /></div>
+                <div class="tab-pane" id="pic-3"><img src="img/kliipanother.png" /></div>
+                <div class="tab-pane" id="pic-4"><img src="img/klippan3.png" /></div>
+                <div class="tab-pane" id="pic-5"><img src="img/klippan4.png" /></div>
+              </div>
+              <ul class="preview-thumbnail nav nav-tabs">
+                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="img/kliipan.png" /></a></li>
+                <li><a data-target="#pic-2" data-toggle="tab"><img src="img/kliipan1.png" /></a></li>
+                <li><a data-target="#pic-3" data-toggle="tab"><img src="img/kliipanother.png" /></a></li>
+                <li><a data-target="#pic-4" data-toggle="tab"><img src="img/klippan3.png" /></a></li>
+                <li><a data-target="#pic-5" data-toggle="tab"><img src="img/klippan4.png" /></a></li>
+              </ul>
+              
+            </div>
+            <div class="details col-md-6">
+              <h3 class="product-title">KLIPPAN</h3>
+              <div class="p"><p>Sofa 2 dudukan, Vissle Abu-abu</p></div>
+              <div class="jumlah"><span class="harga">RP. 2.895.000</span></div>
+              <div class="rating">
+                <div class="stars">
+                  <span class="fa fa-star checked"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                  <span class="fa fa-star checked"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                  <span class="fa fa-star checked"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                  <span class="fa fa-star checked"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                  <span class="fa fa-star checked"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                  <span class="stok">Stok Jumlah : 100</span>
+                </div>
+              </div>
+              <p class="product-description">Kami meluncurkan sofa KLIPPAN pada 1980-an dan sampai sekarang masih menjadi favorit. Nyaman, pas hampir di mana-mana dan memiliki banyak sarung untuk dipilih. Klasik modern dan abadi!.</p>
+              <div class="ukuranproduk">
+                <span class="ukuran">Ukuran Produk</span>
+              </div>
+              <div class="lebar">
+                <span class="title-lebar">Lebar: 180 cm</span>
+              </div>
+              <div>
+                <span class="title-lebar">Kedalaman : 88 cm</span>
+              </div>
+              <div>
+                <span class="title-lebar">Tinggi: 66cm</span>
+              </div>
+              <div>
+                <span class="title-lebar">Tinggi bebas di bawah perabot: 11 cm</span>
+              </div>
+              <div>
+                <span class="title-lebar">Kedalaman dudukan: 54 cm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
 
@@ -96,5 +126,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </body>
 </html>

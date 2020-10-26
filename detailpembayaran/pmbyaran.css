@@ -5,7 +5,7 @@
     left: 0px;
     right: 0px;
     z-index: 11;
-    background: linear-gradient(90deg, #7FAAB0 0%, #819598 117.75%);
+    background: linear-gradient(90deg, #00CBB3; 0%, #00CBB3; 117.75%);
     box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.1);
 }
 
@@ -32,7 +32,7 @@
 .logo__kasdio{
     width: auto;
     height: 33px;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 
 .logostyle{
@@ -51,16 +51,17 @@
     font-size: 12px;
     height: 36px;
     width: 100%;
-    margin-right: 15px;
     background: rgb(250, 250, 250);
     border-width: initial;
     border-style: none;
     border-color: initial;
     border-image: initial;
     padding: 0px 15px;
-    border-radius: 20px;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
-
+    
 .cari{
     color: rgb(22, 22, 22);
     font-size: 12px;
@@ -68,29 +69,29 @@
 
 .ex{
     cursor: pointer;
+    color: black;
 }
 
-.notifikasi{
+.pasar-clock{
     text-decoration: none;
     display: flex;
     -webkit-box-pack: justify;
-    justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
     border-width: initial;
-    padding: 0px 15px;
     border-radius: 20px;
+    margin-bottom: 8px;
+    margin: 10px;
+    color: white;
 }
 
 .cart   {
     text-decoration: none;
     display: flex;
     -webkit-box-pack: justify;
-    justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
     border-width: initial;
-    padding: 0px 17px;
     border-radius: 20px;
     margin-bottom: 8px;
 }
@@ -100,8 +101,10 @@
 }
 
 .cart-color{
+    margin: 10px;
     color: white;
 }
+
 
 
 .main{
@@ -115,12 +118,49 @@
     padding: 0px 16px 80px;
 }
 
-.Transaksi{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #000000;
-    line-height: 80px;
-    margin: 0px 0px 0px;    
+table {
+    font-family:'Montserrat', sans-serif;
+    width: 100%;
 }
 
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+.pasar-detail{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pasar-detail--title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pasar-detail--link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.detail-link{
+    color: #00CBB3;
+}
+
+.pasar-entries{
+    width: 100%;
+}
+
+.pasar-text{
+    line-height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}

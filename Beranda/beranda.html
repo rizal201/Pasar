@@ -31,7 +31,7 @@
         <header class="header">
           <div class="menuatas">
             <div class="logo__kasdio">
-              <a id="logo" title="tokopedia" class="logo" href="#"><img src="../img/tokopedia.png" alt=""></a>
+              <a id="logo" title="tokopedia" class="logo" href="#"><img src="../img/tokopedia.png" alt="" class="img-fluid"></a>
             </div>
               <div id="search" class="search">
                 <input type="text" placeholder="Cari Sepatu Basket" class="search cari">
@@ -49,11 +49,20 @@
                   </svg>
               </div>
               <div class="cart">
-                <svg width="2em" class="cart-color" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1.5em" class="cart-color" height="1.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
                 </svg>
               </div>
-          </div>
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><img src="../img/Chat-admin.png" alt=""><span class="textside">Chat Admin</span> </a>
+                <a href="#"><span class="textside"><svg class="person-account" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                </svg>Akun</span></a>
+                <a href="#"><span class="textside">Pengaturan</span></a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="../img/menu.png" alt="" style="padding: 20px;"></span>
+            </div>
         </header>
       </section>
 <div class="main">
@@ -574,5 +583,14 @@
       },
     });
   </script>
+   <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
   </body>
 </html>

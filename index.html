@@ -49,7 +49,7 @@
               </div>
               <div class="button-masuk">
                 <a href="./login.html">
-                  <button type="button" class="btn btn-outline-light">MASUK</button>
+                  <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target=".bd-example-modal-lg">MASUK</button>
                 </a>
               </div>
               <div class="button-daftar">
@@ -139,78 +139,180 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
-    <div id="kategori" class="kategori-content">
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/Elektronik.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Elektronik</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/handphone.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Smartphone & Aksesoris</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/laptop.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Laptop & Aksesoris</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/bajuwanita.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Baju Wanita</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/sepatuwanita.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Sepatu Wanita</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/taswanita.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Tas Wanita</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/bajupria.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Baju Pria</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/sepatupria.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Sepatu Pria</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/taspria.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Tas Pria</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/jamtangan.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Jam Tangan</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/hobi.png" alt="" class="img-style img-proof ml-2"></div>
-        <div class="kategori-item--teks">
-          <span>Hobi & Koleksi</span>
-        </div>
-      </div>
-      <div class="kategori-item">
-        <div class="kategori-item--image"><img src="img/lihatsemua.png" alt="" class="img-style img-proof ml-2"></div>
-          <div class="kategori-item--teks">
-            <span>lihat semua</span>
+    <div id="category" class="category">
+      <div class="template-category">
+        <div class="category-content">
+          <div class="category-scroll">
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/Elektronik.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Elektronik</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/handphone.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Handphone & Aksesoris</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/laptop.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Laptop & Aksesoris</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/bajuwanita.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Baju Wanita</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/sepatuwanita.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Sepatu Wanita</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/taswanita.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Tas Wanita</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/bajupria.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Baju Pria</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/sepatupria.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Sepatu Pria</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/taspria.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Tas Pria</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/jamtangan.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Jam Tangan</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/hobi.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Hobi & Koleksi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="category-style" href="#" style="text-decoration: none;">
+              <div class="category-haskj">
+                <div class="category-sdfj">
+                  <figure class="category-laosdj">
+                    <img src="./img/lihatsemua.png" alt="">
+                  </figure>
+                  <div class="category-text">
+                    <div class="category-text--jsdf">
+                      <span class="category-text--jfasd">Lihat Semua</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
+        </div>
       </div>
     </div>
     <div id="card">

@@ -104,7 +104,7 @@
 }
 .main{
     position: relative;
-    top: 60px;
+    top: 100px;
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
@@ -291,6 +291,171 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 16px;
+}
+
+.link-detail{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #00CBB3;
+  text-decoration: none;
+}
+
+.Content__produk{
+  font-family: 'Montserrat', sans-serif;
+  color: #373737;
+  line-height: 80px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.Content__card{
+  position: relative;
+}
+
+.Card__lid{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 1em;
+}
+
+.Card__style{
+  cursor: pointer;
+  color: inherit;
+  margin: 0px 0.5em 1em;
+  text-decoration: none;
+}
+
+.Card{
+  width: 200px;
+}
+
+.Card__plapal{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(152, 152, 152, 0.2) 0px 2px 8px 1px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.card__plapal--figure{
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  flex: 1 1 0%;
+}
+
+.img-toko{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card__judul{
+  padding: 0.5em;
+}
+
+.card__detail--judul{
+  min-height: 1em;
+}
+
+.card__judulbarang{
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(74, 74, 74);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  margin: 0.25em 0em;
+  overflow: hidden;
+}
+
+.textkecil{
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 14px;
+}
+
+.card__namatoko{
+  margin: 0.5em 0em;
+}
+
+.card__Toko{
+  display: flex;
+  font-weight: 600;
+  width: 100%;
+  vertical-align: middle;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0.25em 0em;
+  margin-left: 7px;
+}
+
+.card__Toko--nama{
+  font-family: 'Montserrat' , sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 300;
+  color: #373737;
+}
+
+.harga__barang{
+  display: flex;
+  flex-direction: column;
+}
+
+.jumlah{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 17.07px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #00CBB3;
+}
+
+.product_btm_text{
+  padding: 0.5em;
+}
+
+.p_rating{
+color: #fec42d;
+cursor: pointer;
+}
+
+.link__semua{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 1em 0px;
+}
+
+.link__semua--toko{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.img-modal{
+  color: black;
 }
 
 @-webkit-keyframes opacity {

@@ -154,10 +154,6 @@ td, th {
     color: #00CBB3;
 }
 
-.pasar-entries{
-    width: 100%;
-}
-
 .pasar-text{
     line-height: 80px;
     font-family: 'Montserrat', sans-serif;
@@ -166,7 +162,39 @@ td, th {
 }
 
 .pasar-button{
+    display: flex; 
+    align-items: center;
     position: absolute;
-    margin: 10em;
-    padding: 0;
+    margin: 5em;
+    margin-left: 8em;
+    top: 10px;
+}
+
+.button-click{
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    width: 224px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #F2BD19;
+    background-color: white;
+    color: #F2BD19 ;
+    box-sizing: border-box;
+}
+
+.button-click:hover{
+    background-color: #F2BD19;
+    color: white;
+}
+
+.pagination>li>a { 
+    border-radius: 50% !important;margin: 0 5px;
+}
+
+.page-item.active .page-link{
+    background-color: #00CBB3;
+    border: none !important;
+    color: black;
 }

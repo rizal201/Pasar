@@ -48,8 +48,64 @@
                 </svg>
               </div>
               <div class="button-masuk">
-                <a href="./login.html">
-                  <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target=".bd-example-modal-lg">MASUK</button>
+                <a href="#">
+                                    <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
+                    MASUK
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="tampilan">
+                            <div class="image"><img src="./img/tOped.png" alt=""></div>
+                          </div>
+                          <form class="form-style">
+                            <span class="form-text">Udah pengen belanja kan? Daftar Sekarang yuk</span>
+                           <fieldset class="style-user">
+                             <div class="form-group">
+                              <label for="recipient-name" class="col-form-label"><span class="style-text--user">Username atau Email</span></label>
+                              <input type="text" class="form-control" placeholder="Contoh email@toko.com" id="recipient-name">
+                            </div>
+                           </fieldset>
+                           <fieldset class="style-user">
+                            <div class="form-group">
+                             <label for="recipient-name" class="col-form-label"><span class="style-text--user">Password</span></label>
+                             <input name="password" type="password" autocapitalize="current-password" id="login" class="form-control" placeholder="Masukkan Kata Sandi" id="recipient-name">
+                           </div>
+                          </fieldset>
+                          <fieldset class="button-register">
+                            <button id="login_button_masuk" class="button-register--style" type="submit" style="color:white; text-decoration: none;"><a href="./Beranda/beranda.html" style="color: #ffff;">Daftar</a></button>
+                          </fieldset>
+                          </form>
+                          <p class="account">Belum punya akun?
+                            <a href="./login.html" class="register-style">Daftar Disini</a>
+                          </p>
+                          <div class="register-vialink">
+                            <h3 class="register-other">Atau masuk dengan</h3>
+                            <div class="button-facebook">
+                              <button id="button-masuk-facebook" color="facebook" class="button-facebook--style">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/assets-kitabisa-cc/images/icons/icon_small_facebook.svg" alt="facebook" class="facebook">Masuk Dengan Facebook
+                            </button>
+                            </div>
+                            <div class="button-goggle">
+                              <button id="button-masuk-goggle" color="goggle" class="button-goggle--style">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/assets-kitabisa-cc/images/icons/icon_small_google.svg" alt="goggle" class="goggle">Masuk Dengan Goggle
+                            </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
               <div class="button-daftar">

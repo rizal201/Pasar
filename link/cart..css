@@ -254,3 +254,38 @@
   width: 40px;
   height: 40px;
 }
+
+.subtotal{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.text-total{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #373737;
+  margin-left: 150px;
+}
+
+.subtotal-count{
+  margin-left: 150px;
+}
+
+.count-total{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #00CBB3;
+}
+
+.button-send{
+  margin-left: 550px;
+  font-family: 'Montserrat', sans-serif;
+  width: 552px;
+  height: 40px;
+  border-radius:4px;
+  color: white;
+  background-color: #00CBB3;
+  border-style: none;
+}

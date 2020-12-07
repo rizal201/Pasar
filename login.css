@@ -14,7 +14,6 @@
     .tampilan__login{
         background-color: white;
         position: relative;
-        top: 60px;
         max-width: 480px;
         width: 100%;
         box-sizing: border-box;
@@ -45,9 +44,7 @@
     .tOped{
         display: flex; 
         vertical-align: middle; 
-        margin-left: 8em;
-        width: 220.74px;
-        height: 48px;
+        margin: auto;
     }
 
     .title{
